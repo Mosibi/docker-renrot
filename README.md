@@ -1,6 +1,6 @@
 Docker container mosibi/renrot
 =========
-The Docker container mosibi/renrot can be used to rotate jpg photo files
+The Docker container [mosibi/renrot](https://hub.docker.com/r/mosibi/renrot) can be used to rotate jpg photo files
 according to the EXIF information in the photo.
 
 Add your photo directory to the container with the '-v' option, see "Usage"
@@ -21,8 +21,8 @@ Usage
 ======
 docker run --rm -v /path/to/photos:/data:z  mosibi/renrot
 
-Add the extra ':z' when youre docker host is a system with Selinux support, for
-example Fedora, Redhat, CentOS
+Add the extra ':z' when your docker host is a system with Selinux support, for
+example Fedora, Redhat or CentOS
 
 Arguments
 ======
